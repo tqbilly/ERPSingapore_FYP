@@ -23,7 +23,7 @@ for i in range(0,30):
         temp1+=res1[j]*(x[i]**j)*t0[0]
         temp2+=res2[j]*(x[i]**j)*t0[0]
         #temp3+=res1[j]*(x[i]**j)
-        temp4+=(1+j)*res1[j]*(x[i]**j)*t0[0]
+        temp4+=(1+j)*res2[j]*(x[i]**j)*t0[0]
     y1.append(temp1)
     y2.append(temp2)
     y3.append(temp1+erp*t0[0])
